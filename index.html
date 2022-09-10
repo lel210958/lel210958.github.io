@@ -1,12 +1,209 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Xingxing Liu's Home Page</title>
-</head>
-<body style="margin: 0px; height:850px; width:auto">
-<iframe src="FrameSetting.html" style="height:100%;width:100%;border-width:0px;">
-</iframe>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/remodal.css">
+    <link rel="stylesheet" href="static/css/remodal-default-theme.min.css">
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+    <script type="text/css">
+        .label-value-autoWidth {
+            vertical-align: top;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container" id="cv" style="height: 1500px; ">
+        <div class="side">
+            <div class="me">
+                <!--<div class="portrait"></div>-->
+                <!--<div class="remodal remodal-img" data-remodal-id="portrait-modal">-->
+                    <!--<h3>请输入图片URL地址：</h3>-->
+                    <!--<br/>-->
+                    <!--<input type="text" id="avatar-url">-->
+                    <!--<button data-remodal-action="confirm" class="remodal-confirm">确定</button>-->
+                <!--</div>-->
+                <div class="weixin" style="background-color: transparent;">
+                    <img src="static/image/user.jpg" alt="">
+
+                </div>
+                <h1 id="username" >刘恩璐</h1>
+                <h4 id="persona-tag" >java开发工程师</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span class="label-value">刘恩璐</span></li>
+                    <li>
+                        <label class="left-label">学历</label><span class="label-value">本科</span></li>
+                    <li>
+                        <label class="left-label">毕业院校</label><span class="label-value">东北林业大学</span></li>
+                    <li>
+                        <label class="left-label">毕业年份</label><span class="label-value">2018</span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">lel210958@gmail.com</span></li>
+                    <li>
+                        <label class="left-label">个人主页</label><span class="label-value">lel210958.github.io</span></li>
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">github.com/lel210958</span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">java</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Javascript</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <span class="label-value-autoWidth">熟练掌握Java基础数据结构、io流、多线程等</span></li>
+                    </li>
+                    <li>
+                        <span class="label-value-autoWidth">熟练掌握jvm内存模型、常见垃圾回收算法及简单jvm优化等</span></li>
+                    </li>
+                    <li>
+                        <span class="label-value-autoWidth">基本掌握html、css、js、jquery、angular js等</span></li>
+                    </li>
+                    <li>
+                        <span class="label-value-autoWidth">熟练掌握Spring、Spring MVC、Spring Boot、Spring Cloud等框架的使用</span></li>
+                    </li>
+                    <li>
+                        <span class="label-value-autoWidth">熟练掌握mysql索引设计原则、MVCC版本控制原理、常见慢SQL优化等</span></li>
+                    </li>
+                    <li>
+                        <span class="label-value-autoWidth">熟练掌握redis基础数据类型的使用、redis配合lua脚本限流、redis分布式锁</span></li>
+                    </li>
+                    <li>
+                        <span class="label-value-autoWidth">熟练掌握nacos、zookeeper、active mq、rocket mq、quartz、xxl-job等基本使用</span></li>
+                    </li>
+                    <li>
+                        <span class="label-value-autoWidth">熟练掌握svn、git、maven等开发工具</span></li>
+                    </li>
+                </ul>
+            </div>
+
+            <!--<div class="code info-unit">-->
+                <!--<h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>-->
+                <!--<hr>-->
+                <!--<div class="weixin">-->
+                    <!--<img src="static/image/weixin.png" alt="">-->
+
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="remodal remodal-img" data-remodal-id="weixin-modal">-->
+                <!--<h3>请输入图片URL地址：</h3>-->
+                <!--<br/>-->
+                <!--<input type="text" id="weixin-url">-->
+                <!--<button data-remodal-action="confirm" class="remodal-confirm">确定</button>-->
+            <!--</div>-->
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>东北林业大学 - 电子信息工程（本科）2014-2018</h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>埃文科技有限公司－开发工程师</h3>
+                        <p>主要负责网动议项目的探测警报逻辑开发。</p>
+                    </li>
+                    <li>
+                        <h3>河南澳乐康科技有限公司－开发工程师</h3>
+                        <p>主要负责熊猫出没App服务端直播相关业务的功能设计和实现。</p>
+                    </li>
+                    <li>
+                        <h3>河南澳乐康科技有限公司－开发工程师</h3>
+                        <p>主要负责苏宁小店、家乐福供应链端的采购、调拨、退厂等业务系统需求的功能设计和实现</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>熊猫出没App-直播模块 开发工程师</h3>
+                        <p>
+                            ⚫ 项目架构：spring boot、mybatis-plus、mysql、rocketMq、dubbo <br/>
+                            ⚫ 责任描述：负责熊猫出没App直播人气、直播相关数据统计、优惠券抢购等业务功能开发。<br/>
+                            ⚫ 主要用途：提供给官方平台、第三方达人在app内进行直播带货等。<br/>
+                            ⚫ 技术路线：利用netty做客户端和服务端通信、采用redis做直播相关数据统计，延时购采用rocketMq的延时消息进行通信，利用rpc接口解耦合查询商品、账户等主数据、针对以往使用的线程进行优化，使用线程池达到资源复用、缓冲等作用。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>家乐福大仓要货系统 开发工程师 </h3>
+                        <p>
+                            ⚫ 项目架构：spring、spring mvc、mysql、postgre sql、windq、rsf <br/>
+                            ⚫ 责任描述：家乐福大仓需求提交页面及单个提交、全部提交、审批等功能开发。<br/>
+                            ⚫ 主要用途：基于家乐福大仓下库存数据和业务制定的订货规则，按照部门、地点维度等拆分要货需求并提交要货额度，要货额度满足额度规则设置，则免审批，不满额度会进入按地点的一个要货需求池等待，审批组可强制审批通过该地点要货需求池，则当日该地点要货需求免审，创建采购订单等。<br/>
+                            ⚫ 技术路线：采用 redis 做额度的快速计算，数据库做流水单备份，保证redis数据可靠性的前提下采用redis计算，倘若发现redis故障，清理redis并阻塞请求根据时间段去捞取数据库流水进行计算做串行化实时计算并设置缓存。全部提交按照地点划分一个任务交由线程池执行并执行规则校验把有效数据通过 activemq 下发创单系统创建采购订单。
+
+                        </p>
+                    </li>
+                    <li>
+                        <h3>苏宁小店集货退厂系统</h3>
+                        <p>
+                            ⚫ 项目架构：spring、spring mvc、mysql、postgre sql、windq、rsf <br/>
+                            ⚫ 责任描述：负责基础可退数据的展示和提交拆单模块，批量导入提交模块、需求单状态回写模块。<br/>
+                            ⚫ 主要用途：基于昨天的库存数据关联可退标识，并在当天提交时校验实时库存，才能提交退厂需求下发门店，通过门店操作装箱产生退厂订单并接收订单信息来更新退厂需求单状态供大区供应管理经理查询。<br/>
+                            ⚫ 技术路线：查询实时库存采用的 ajax 技术，批量导入采用管理线程池做流量控制，工作线程池做单个excel数据经过Sax 单行解析交由工作线程处理，起到加快解析速度和合理缓冲的作用。工作线程校验数据，并按照门店+供货模式进行合单，采用concurrentHashMap进行维度的分组控制多线程情况下数据异常的问题。并且在工作线程处理完数据之后设置回调函数把所有校验通过的有效数据通过 activemq 下发至店家。通过 mq 监听事件监听订单创建信息并通过订单信息关联对应退场需求更新其状态。
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <!--<div class="trophy info-unit">-->
+                <!--<h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>-->
+                <!--<hr>-->
+                <!--<ul class="experience-list">-->
+                    <!--<li>-->
+                        <!--<h3>CET-4</h3>-->
+                        <!--<p>-->
+                            <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。-->
+                        <!--</p>-->
+                    <!--</li> -->
+                <!--</ul>-->
+            <!--</div>-->
+            <!--<div class="aboutme info-unit right-paragraph">-->
+                <!--<h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>-->
+                <!--<hr>-->
+                <!--<p>-->
+                    <!---->
+                <!--</p>-->
+            <!--</div>-->
+        </div>
+    </div>
 </body>
+
 </html>
